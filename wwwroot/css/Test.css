@@ -1,0 +1,41 @@
+﻿ul {
+    list-style: none;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    overflow:auto;
+    width:150px;
+    height:100%;
+}
+
+li {
+  display:flex;
+  flex-flow:column nowrap;
+}
+
+
+
+experiance {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+    experiance experiance-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        transition: width .6s ease;
+    }
+
+experiance experiance-bar green {
+    background-color: #28a745;
+}

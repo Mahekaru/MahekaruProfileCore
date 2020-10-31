@@ -1,0 +1,91 @@
+﻿@model MahekaruProfileCore.Models.ProfileModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "";
+
+    var skz = 0;
+
+}
+
+<html>
+<head>
+    @*<meta name="viewport" content="width=device-width" />*@
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stat Sheet</title>
+
+    <link rel="stylesheet" href="~/css/profile.css">
+</head>
+<body>
+    <wrapper>
+        <profileinfo>
+            <charinfo>
+                <level>
+                    <p>Level 70 Programmer</p>
+                </level>
+                <charprogress>
+                    <char-slot>
+                        <p>Name:</p>
+                        <p>Exp:</p>
+                    </char-slot>
+                    <char-slot>
+                        <p>Michael sssJennings</p>
+                        <p>123</p>
+                    </char-slot>
+
+
+                </charprogress>
+            </charinfo>
+            <charstats>
+                <charskills>
+
+                    <ul>
+                        @foreach (Skills i in Model.Skills.OrderByDescending(x => x.SkillPoints))
+                        {
+                            skz = (int)i.SkillPoints * 10;
+
+                            <li>
+                                <p>@i.Name</p>
+                                <experiance>
+                                    <experiance-bar green style="width:@skz%">@i.ExperianceLevel + @i.SkillPoints</experiance-bar>
+                                </experiance>
+                            </li>
+                        }
+                    </ul>
+                </charskills>
+                <charimg>
+                    <box1>
+                        <img-frame>
+                            <img src="~/img/profile/ProfileImage.png" />
+                        </img-frame>
+                    </box1>
+                    <box2>
+                        <githubbutton>
+                            Get Hub
+                        </githubbutton>
+
+                        <charhealth>
+                            <hpbar>HP</hpbar>
+                            <mpbar>MP</mpbar>
+                        </charhealth>
+                    </box2>
+                </charimg>
+            </charstats>
+        </profileinfo>
+        <contactCard>
+            <h1>Contact Card</h1>
+            <box>
+                <p>Email:</p>
+                <p>MichaelEJennings@yahoo.com</p>
+                
+            </box>
+            <box>
+                <p>Cell:</p>
+                <p>(317)626-8984</p>
+            </box>
+ 
+        </contactCard>
+    </wrapper>
+    @*//<script src="~/js/profile.js"></script>*@
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿@model MahekaruProfileCore.Models.ProfileModel
+@{
+    ViewData["Title"] = "Test";
+    Layout = "";
+}
+
+
+<head>
+    <link rel="stylesheet" href="~/css/Test.css">
+</head>
+
+<div>
+    <ul>
+        @foreach (Skills i in Model.Skills)
+        {
+            <li>
+                <p>@i.Name</p>
+                <p>@i.ExperianceLevel</p>
+                <experiance>
+                    <experiance-bar green style="width:50%">@i.ExperianceLevel  @i.SkillPoints.ToString()</experiance-bar>
+                </experiance>
+            </li>
+        }
+    </ul>
+</div>
+
