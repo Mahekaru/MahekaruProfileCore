@@ -7,19 +7,22 @@ profileinfo{
 
 body{
     margin:0;
-    align-items:center;
+    /*align-items:center;*/
 }
 
 
 body{
     display:flex;
-    justify-content:center;
+    flex-flow:column nowrap;
+    
+    /*justify-content:center;*/
 }
 
-wrapper{
-    display:flex;
+wrapper {
+    display: flex;
     flex-flow: row wrap;
-    height:95%;
+    height: 85%;
+    align-self: center;
 }
 
 /*wrapper > *{
