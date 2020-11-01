@@ -1,0 +1,24 @@
+﻿@model MahekaruProfileCore.Models.AppModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+    <head>
+        <link rel="stylesheet" href="~/css/app.css">
+    </head>
+<wrapper>
+    <logo></logo>
+    <apps>
+        @foreach (App i in Model.Apps)
+        {
+            <app>
+                @i.Name
+                <img src="@i.ImageName" />
+                @i.Description
+                <a href="@i.GithubLink">Github</a>
+                <a href="@i.AppLink">Open App</a>
+
+            </app>
+        }
+    </apps>
+</wrapper>

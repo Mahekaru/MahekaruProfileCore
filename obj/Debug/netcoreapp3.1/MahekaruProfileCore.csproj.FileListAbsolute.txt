@@ -157,3 +157,4 @@ C:\Users\mahek\source\repos\MahekaruProfileCore\obj\Debug\netcoreapp3.1\Mahekaru
 C:\Users\mahek\source\repos\MahekaruProfileCore\obj\Debug\netcoreapp3.1\Razor\Views\Profile\Index.cshtml.g.cs
 C:\Users\mahek\source\repos\MahekaruProfileCore\obj\Debug\netcoreapp3.1\Razor\Views\Profile\Index - Copy.cshtml.g.cs
 C:\Users\mahek\source\repos\MahekaruProfileCore\obj\Debug\netcoreapp3.1\Razor\Views\Profile\Test.cshtml.g.cs
+C:\Users\mahek\source\repos\MahekaruProfileCore\obj\Debug\netcoreapp3.1\Razor\Views\App\Index.cshtml.g.cs

@@ -1,0 +1,13 @@
+﻿body {
+}
+
+apps{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+}
+
+apps app{
+    display:flex;
+    flex-flow:column nowrap;
+}
