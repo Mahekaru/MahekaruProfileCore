@@ -32,12 +32,16 @@ wrapper {
     wrapper profileinfo,
     wrapper contactCard,
     wrapper profileinfo charinfo {
-        border: 1px solid black;
+        border: 1px solid #dee2e6;
     }
 
 charinfo {
     display: flex;
     flex-flow: row wrap;
+}
+
+charinfo p{
+    margin:0;
 }
 
 charprogress {
@@ -58,14 +62,28 @@ contactcard{
 level{
     flex: 1 auto;
     align-self:center;
+    padding: 0 .5em 0 .5em;
+
 }
 
 level p {
     text-align:center;
 }
 
-charprogress{
+charprogress {
     flex: 4 auto;
+    border-left: 1px solid #dee2e6;
+    padding-left:1em;
+}
+
+charprogress :first-child {
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:flex-end;
+}
+
+charprogress char-slot p{
+    margin:0;
 }
 
     charprogress > :nth-child(2) {
@@ -101,12 +119,12 @@ charskills ul {
 }
 
 charskills ul li {
-    display:flex;
-    overflow-x:hidden;
+    display: flex;
+    overflow-x: hidden;
     flex-flow: column nowrap;
-    width:100%;
+    width: 100%;
     padding: .75rem 1.25rem;
-    border: 1px solid;
+    border: 1px solid #dee2e6;
 }
 
 li p{
@@ -137,11 +155,34 @@ charhealth{
 }
 
 githubbutton {
-    align-self:center;
+    flex:1 auto;
+    text-align: center;
+    background-color:#007bff;
+    border-color:#007bff;
+    color:#fff;
 }
 
 charhealth{
+    display:flex;
     justify-content:space-evenly;
+}
+
+charhealth charhealthbox,
+charhealth charmpbox {
+    display: flex;
+    flex-flow: row nowrap;
+    flex:1 auto;
+    justify-content:center;
+}
+
+charhealth charhealthbox hptext,
+charhealth charmpbox mptext{
+    align-self: center;
+}
+charhealth charhealthbox hpbox,
+charhealth charmpbox mpbox {
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 experiance {
@@ -172,7 +213,7 @@ experiance-bar[green] {
 box1{
     height:100%;
     display:flex;
-    align-items:center;
+    /*align-items:center;*/
 }
 
 box2{
