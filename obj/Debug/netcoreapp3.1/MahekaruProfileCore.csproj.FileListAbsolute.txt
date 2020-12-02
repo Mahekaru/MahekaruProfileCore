@@ -151,10 +151,10 @@ C:\Users\mahek\source\repos\MahekaruProfileCore\bin\Debug\netcoreapp3.1\ru\Micro
 C:\Users\mahek\source\repos\MahekaruProfileCore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\mahek\source\repos\MahekaruProfileCore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\mahek\source\repos\MahekaruProfileCore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\mahek\source\repos\MahekaruProfileCore\obj\Debug\netcoreapp3.1\MahekaruProfileCore.csproj.CoreCompileInputs.cache
-C:\Users\mahek\source\repos\MahekaruProfileCore\obj\Debug\netcoreapp3.1\MahekaruProfileCore.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\mahek\source\repos\MahekaruProfileCore\obj\Debug\netcoreapp3.1\MahekaruProfileCore.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\mahek\source\repos\MahekaruProfileCore\obj\Debug\netcoreapp3.1\Razor\Views\Profile\Index.cshtml.g.cs
 C:\Users\mahek\source\repos\MahekaruProfileCore\obj\Debug\netcoreapp3.1\Razor\Views\Profile\Index - Copy.cshtml.g.cs
 C:\Users\mahek\source\repos\MahekaruProfileCore\obj\Debug\netcoreapp3.1\Razor\Views\Profile\Test.cshtml.g.cs
 C:\Users\mahek\source\repos\MahekaruProfileCore\obj\Debug\netcoreapp3.1\Razor\Views\App\Index.cshtml.g.cs
+C:\Users\mahek\source\repos\MahekaruProfileCore\obj\Debug\netcoreapp3.1\MahekaruProfileCore.csproj.CoreCompileInputs.cache
+C:\Users\mahek\source\repos\MahekaruProfileCore\obj\Debug\netcoreapp3.1\MahekaruProfileCore.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mahek\source\repos\MahekaruProfileCore\obj\Debug\netcoreapp3.1\MahekaruProfileCore.MvcApplicationPartsAssemblyInfo.cache

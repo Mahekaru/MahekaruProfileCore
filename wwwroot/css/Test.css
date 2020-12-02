@@ -15,14 +15,34 @@ ibox {
     background-color: #132232;
     color: #ffef9c;
 }
+cbox{
+    display:flex;
+    flex:1 auto;
+}
 
 nbox{
     display:flex;
     flex-flow:column nowrap;
     justify-content:center;
+    align-items:center;
+    flex:1 auto;
+}
+
+nbtitle{
+    font-size:1.3rem;
+}
+
+nbname{
+    font-size:2rem;
+
 }
 
 ul li {
     display:flex;
     flex-flow: row nowrap;
+    align-items:center;
+}
+
+cicon{
+    padding:0 5px 0 5px;
 }
