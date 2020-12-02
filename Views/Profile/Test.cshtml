@@ -5,22 +5,33 @@
 }
 
 
-<head>
-    <link rel="stylesheet" href="~/css/Test.css">
-</head>
+    <head>
+        <link rel="stylesheet" href="~/css/Test.css">
+        <link href="C:\Users\mahek\.nuget\packages\font.awesome.aspdotnetcore\5.15.1\contentFiles\any\any\wwwroot\lib\fontawesome\css\fontawesome.css" rel="stylesheet" />
+    </head>
 
-<div>
-    <ul>
-        @foreach (Skills i in Model.Skills)
-        {
-            <li>
-                <p>@i.Name</p>
-                <p>@i.ExperianceLevel</p>
-                <experiance>
-                    <experiance-bar green style="width:50%">@i.ExperianceLevel  @i.SkillPoints.ToString()</experiance-bar>
-                </experiance>
-            </li>
-        }
-    </ul>
-</div>
-
+<cc>
+    <dbox>decoration box</dbox>
+    <ibox>
+        <nbox>
+            <div>Michael Jennings</div>
+            <div>Web Developer</div>
+        </nbox>
+        <cbox>
+            <ul>
+                <li>
+                    <div class="fa">icon</div>
+                    <div>(317) 626-8984</div>
+                </li>
+                <li>
+                    <div>Icon</div>
+                    <div>Linked In</div>
+                </li>
+                <li>
+                    <div>icon</div>
+                    <div>Git hub</div>
+                </li>
+            </ul>
+        </cbox>
+    </ibox>
+</cc>

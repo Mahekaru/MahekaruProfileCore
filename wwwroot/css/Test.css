@@ -1,41 +1,28 @@
-﻿ul {
-    list-style: none;
+﻿cc{
     display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    overflow:auto;
-    width:150px;
-    height:100%;
+    flex-flow:column nowrap;
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
 }
 
-li {
-  display:flex;
-  flex-flow:column nowrap;
+dbox {
+    background-color: #ffef9c;
 }
 
-
-
-experiance {
-    display: flex;
-    height: 1rem;
-    overflow: hidden;
-    line-height: 0;
-    font-size: .75rem;
-    background-color: #e9ecef;
-    border-radius: .25rem;
+ibox {
+    display:flex;
+    flex-flow:row nowrap;
+    background-color: #132232;
+    color: #ffef9c;
 }
 
-    experiance experiance-bar {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        overflow: hidden;
-        color: #fff;
-        text-align: center;
-        white-space: nowrap;
-        transition: width .6s ease;
-    }
+nbox{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:center;
+}
 
-experiance experiance-bar green {
-    background-color: #28a745;
+ul li {
+    display:flex;
+    flex-flow: row nowrap;
 }
