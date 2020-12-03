@@ -15,6 +15,7 @@
     <title>Stat Sheet</title>
 
     <link rel="stylesheet" href="~/css/profile.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 </head>
 <body>
     <wrapper>
@@ -87,26 +88,55 @@
             </charstats>
         </profileinfo>
         <contactCard>
-            <cardbox>
-                <h1>Contact Card</h1>
-                <box>
-                    <p>Email:</p>
-                    <p>MichaelEJennings@yahoo.com</p>
+            <cc>
+                <dbox></dbox>
+                <ibox>
+                    <nbox>
+                        <nbname>Michael Jennings</nbname>
+                        <nbtitle>Web Developer</nbtitle>
+                    </nbox>
+                    <cbox>
+                        <ul>
+                            <li>
+                                <cicon phone class="fa fa-phone" style="font-size:36px"></cicon>
+                                <ctext>(317) 626-8984</ctext>
+                            </li>
+                            <li>
+                                <cicon class="fa fa-envelope-square" style="font-size:36px"></cicon>
+                                <ctext><a href="mailto:MichaelEJennings@yahoo.com">MichaelEJennings@yahoo.com</a></ctext>
+                            </li>
+                            <li>
+                                <cicon class="fa fa-linkedin-square" style="font-size:36px"></cicon>
+                                <ctext><a href="www.linkedin.com/in/michaelejennings42">Linked In</a></ctext>
+                            </li>
+                            <li>
+                                <cicon class="fa fa-github-square" style="font-size:36px"></cicon>
+                                <ctext><a href="https://github.com/MichaelEJennings">Git hub</a></ctext>
+                            </li>
+                        </ul>
+                    </cbox>
+                </ibox>
+            </cc>
+            @*<cardbox>
+            <h1>Contact Card</h1>
+            <box>
+                <p>Email:</p>
+                <p>MichaelEJennings@yahoo.com</p>
 
-                </box>
-                <box>
-                    <p>Cell:</p>
-                    <p>(317)626-8984</p>
-                </box>
-            </cardbox>
+            </box>
+            <box>
+                <p>Cell:</p>
+                <p>(317)626-8984</p>
+            </box>
+        </cardbox>*@
             @*<cardimgbox>
-                <img src="~/img/profile/Programming.gif"/>
-            </cardimgbox>
-            <cardimgbox>
-                <img src="~/img/profile/room_gamers.gif" />
-            </cardimgbox>*@
-            
- 
+            <img src="~/img/profile/Programming.gif"/>
+        </cardimgbox>
+        <cardimgbox>
+            <img src="~/img/profile/room_gamers.gif" />
+        </cardimgbox>*@
+
+
         </contactCard>
     </wrapper>
     @*//<script src="~/js/profile.js"></script>*@

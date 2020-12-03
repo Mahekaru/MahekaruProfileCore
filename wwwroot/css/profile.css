@@ -30,14 +30,14 @@ wrapper {
 }*/
 
 wrapper profileinfo,
-wrapper contactCard,
 wrapper profileinfo charinfo {
     border: 1px solid #dee2e6;
 }
 
-wrapper profileinfo{
+wrapper{
     flex:1 auto;
 }
+
 charinfo {
     display: flex;
     flex-flow: row wrap;
@@ -53,13 +53,16 @@ charprogress {
 }
 
 profileinfo {
-    display:flex;
-    flex-direction:column;
-    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex: 4;
+    min-width:40%;
 }
 
 contactcard{
-    flex:1 auto;
+    flex:1;
+    padding-left:1em;
 }
 
 level{
@@ -255,11 +258,72 @@ cardimgbox {
         width: 100%;
         height: 100%;
     }
+cc {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+}
+
+dbox {
+    background-color: #ffef9c;
+    height: 1em;
+    border-radius: 5px 5px 0 0;
+}
+
+ibox {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #132232;
+    color: #ffef9c;
+    padding:1em;
+}
+
+cbox {
+    display: flex;
+    flex: 1 auto;
+    padding:1em;
+}
+
+nbox {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1 auto;
+    padding:1em;
+    min-width:18em;
+}
+
+nbtitle {
+    font-size: 1.3rem;
+}
+
+nbname {
+    font-size: 2rem;
+}
+
+ul li {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+a {
+    color: #ffef9c;
+}
+cicon {
+    padding: 0 5px 0 5px;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     wrapper{
         flex:1;
         margin:0 1em 0 1em;
+    }
+
+    contactcard{
+        padding:0px;
     }
 }
 
