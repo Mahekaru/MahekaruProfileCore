@@ -5,6 +5,10 @@ profileinfo{
     height:100%
 }
 
+wrapper{
+    margin-bottom:4%;
+}
+
 body{
     margin:0;
     /*align-items:center;*/
@@ -210,6 +214,7 @@ experiance {
     font-size: .75rem;
     background-color: #e9ecef;
     border-radius: .25rem;
+    width:100%;
 }
 
 experiance experiance-bar {
@@ -225,6 +230,10 @@ experiance experiance-bar {
 
 experiance[thin] {
     max-height:2px;
+}
+
+experiance-bar[full]{
+    width:100%;
 }
 
 experiance-bar[green] {
@@ -276,13 +285,15 @@ ibox {
     flex-flow: row nowrap;
     background-color: #132232;
     color: #ffef9c;
-    padding:1em;
+    /*padding:1em;*/
 }
 
 cbox {
     display: flex;
     flex: 1 auto;
-    padding:1em;
+    justify-content:center;
+    width:11em;
+    /*padding:1em;*/
 }
 
 nbox {
@@ -291,18 +302,23 @@ nbox {
     justify-content: center;
     align-items: center;
     flex: 1 auto;
-    padding:1em;
-    min-width:18em;
+    /*padding:1em;*/
+    min-width:15em;
 }
 
 nbtitle {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 nbname {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
+cbox ul{
+    /*padding-left:5px;*/
+    padding: 0 5px 0 5px;
+    margin:.3rem;
+}
 ul li {
     display: flex;
     flex-flow: row nowrap;

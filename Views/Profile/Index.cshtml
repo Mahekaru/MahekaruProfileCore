@@ -22,7 +22,7 @@
         <profileinfo>
             <charinfo>
                 <level>
-                    <p>Level 70 Programmer</p>
+                    <p>@Model.Title</p>
                 </level>
                 <charprogress>
                     <char-slot>
@@ -30,8 +30,8 @@
                         <p>Exp:</p>
                     </char-slot>
                     <char-slot>
-                        <p>Michael sssJennings</p>
-                        <p>123</p>
+                        <p>@Model.Name</p>
+                        <p>@Model.ExpTotal</p>
                     </char-slot>
                 </charprogress>
             </charinfo>
@@ -67,18 +67,18 @@
                             <charhealthbox>
                                 <hptext>HP:</hptext>
                                 <hpbox>
-                                    <hp>123</hp>
+                                    <hp>@Model.HP</hp>
                                     <experiance thin>
-                                        <experiance-bar green style="width:100%"></experiance-bar>
+                                        <experiance-bar green full></experiance-bar>
                                     </experiance>
                                 </hpbox>
                             </charhealthbox>
                             <charmpbox>
                                 <mptext>MP:</mptext>
                                 <mpbox>
-                                    <mp>123</mp>
+                                    <mp>@Model.MP</mp>
                                     <experiance thin>
-                                        <experiance-bar blue style="width:100%"></experiance-bar>
+                                        <experiance-bar blue full></experiance-bar>
                                     </experiance>
                                 </mpbox>
                             </charmpbox>
@@ -92,43 +92,32 @@
                 <dbox></dbox>
                 <ibox>
                     <nbox>
-                        <nbname>Michael Jennings</nbname>
+                        <nbname>@Model.Name</nbname>
                         <nbtitle>Web Developer</nbtitle>
                     </nbox>
                     <cbox>
                         <ul>
                             <li>
-                                <cicon phone class="fa fa-phone" style="font-size:36px"></cicon>
+                                <cicon phone class="fa fa-phone" style="font-size:1.5rem"></cicon>
                                 <ctext>(317) 626-8984</ctext>
                             </li>
                             <li>
-                                <cicon class="fa fa-envelope-square" style="font-size:36px"></cicon>
-                                <ctext><a href="mailto:MichaelEJennings@yahoo.com">MichaelEJennings@yahoo.com</a></ctext>
+                                <cicon class="fa fa-envelope-square" style="font-size:1.5rem"></cicon>
+                                <ctext><a href="mailto:MichaelEJennings@yahoo.com">Email Me</a></ctext>
                             </li>
                             <li>
-                                <cicon class="fa fa-linkedin-square" style="font-size:36px"></cicon>
+                                <cicon class="fa fa-linkedin-square" style="font-size:1.5rem"></cicon>
                                 <ctext><a href="www.linkedin.com/in/michaelejennings42">Linked In</a></ctext>
                             </li>
                             <li>
-                                <cicon class="fa fa-github-square" style="font-size:36px"></cicon>
+                                <cicon class="fa fa-github-square" style="font-size:1.5rem"></cicon>
                                 <ctext><a href="https://github.com/MichaelEJennings">Git hub</a></ctext>
                             </li>
                         </ul>
                     </cbox>
                 </ibox>
             </cc>
-            @*<cardbox>
-            <h1>Contact Card</h1>
-            <box>
-                <p>Email:</p>
-                <p>MichaelEJennings@yahoo.com</p>
-
-            </box>
-            <box>
-                <p>Cell:</p>
-                <p>(317)626-8984</p>
-            </box>
-        </cardbox>*@
+           
             @*<cardimgbox>
             <img src="~/img/profile/Programming.gif"/>
         </cardimgbox>
