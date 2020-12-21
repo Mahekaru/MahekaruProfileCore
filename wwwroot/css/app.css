@@ -10,4 +10,26 @@ apps{
 apps app{
     display:flex;
     flex-flow:column nowrap;
+    width:25em;
 }
+
+app app-title{
+    align-self:center;
+}
+
+app app-buttons{
+    display:flex;
+    flex-flow:column nowrap;
+    text-align:center;
+}
+
+app-buttons a {
+    flex: 1;
+    background-color: #007bff;
+    color:#ffffff;
+}
+
+app-img img{
+    width:100%;
+}
+

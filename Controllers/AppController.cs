@@ -25,21 +25,21 @@ namespace MahekaruProfileCore.Controllers
             apps.Apps.Add(
             CreateApp("Binary Converter",
             "Originally a desktop application. I liked it a lot, so I converted it into a web app.",
-            "",
+            "/img/Apps/BC.png",
             "",
             ""));
 
             apps.Apps.Add(
             CreateApp("Binary Converter API",
             "API to act in place of the Binary Converter is used by Binary Converter 2.0",
-            "",
+            "/img/Apps/BCAPI.png",
             "",
             ""));
 
             apps.Apps.Add(
             CreateApp("Flappy Bird Clone",
             "Cloned to the best of my ability... Flappy Bird",
-            "",
+            "/img/Apps/FBClone.jpg",
             "",
             ""));
 

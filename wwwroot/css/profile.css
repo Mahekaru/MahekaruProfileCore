@@ -61,12 +61,17 @@ profileinfo {
     flex-direction: column;
     overflow: hidden;
     flex: 4;
-    min-width:40%;
+    min-width: 40%;
+    -webkit-box-shadow: 6px 5px 15px 2px rgba(0,0,0,0.79);
+    box-shadow: 6px 5px 15px 2px rgba(0,0,0,0.79);
 }
 
 contactcard{
     flex:1;
     padding-left:1em;
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:space-between;
 }
 
 level{
@@ -261,7 +266,8 @@ contactCard cardbox {
 }
 
 cardimgbox {
-    width: 15em;
+    /*width: 15em;*/
+    align-self:center;
 }
     cardimgbox img {
         width: 100%;

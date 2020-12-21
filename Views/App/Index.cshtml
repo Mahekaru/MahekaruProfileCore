@@ -12,12 +12,17 @@
         @foreach (App i in Model.Apps)
         {
             <app>
-                @i.Name
-                <img src="@i.ImageName" />
-                @i.Description
-                <a href="@i.GithubLink">Github</a>
-                <a href="@i.AppLink">Open App</a>
-
+                <app-title>@i.Name</app-title>
+                <app-img>
+                    <img src="@i.ImageName" />
+                </app-img>
+                <app-description>
+                    @i.Description
+                </app-description>
+                <app-buttons>
+                    <a href="@i.GithubLink">Github</a>
+                    <a href="@i.AppLink">Open App</a>
+                </app-buttons>
             </app>
         }
     </apps>
