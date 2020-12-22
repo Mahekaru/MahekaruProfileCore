@@ -91,19 +91,20 @@ charprogress {
     padding-left:1em;
 }
 
-charprogress :first-child {
-    display:flex;
-    flex-flow:column nowrap;
-    align-items:flex-end;
+charprogress > :nth-child(1) {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
 }
 
 charprogress char-slot p{
     margin:0;
 }
 
-    charprogress > :nth-child(2) {
-        margin: 0 0 0 2em;
-    }
+charprogress > :nth-child(2) {
+    margin: 0 2em 0 2em;
+    flex:1;
+}
 
 charstats{
     display: flex;
@@ -199,6 +200,7 @@ charhealth charhealthbox hptext,
 charhealth charmpbox mptext{
     align-self: center;
 }
+
 charhealth charhealthbox hpbox,
 charhealth charmpbox mpbox {
     display: flex;
@@ -244,13 +246,19 @@ experiance-bar[full]{
 experiance-bar[green] {
     background-color: #28a745;
 }
+
 experiance-bar[blue] {
     background-color: #007bff;
 }
-box1{
-    height:93%;
-    display:flex;
-    justify-content:center;
+
+experiance-bar[orange] {
+    background-color: #FF6600;
+}
+
+box1 {
+    height: 93%;
+    display: flex;
+    justify-content: center;
     /*align-items:center;*/
 }
 
@@ -267,16 +275,18 @@ contactCard cardbox {
 
 cardimgbox {
     /*width: 15em;*/
-    align-self:center;
+    /*align-self:center;*/
 }
-    cardimgbox img {
-        width: 100%;
-        height: 100%;
-    }
+
+cardimgbox img {
+    width: 100%;
+    /*height: 100%;*/
+}
+
 cc {
     display: flex;
     flex-flow: column nowrap;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 5px 5px 0 0;
 }
 
