@@ -175,7 +175,7 @@ charhealth{
     flex-flow:row nowrap;
 }
 
-githubbutton {
+a[githubbutton] {
     flex:1 auto;
     text-align: center;
     background-color:#007bff;

@@ -18,7 +18,7 @@ namespace MahekaruProfileCore.Controllers
             vm.ExpTotal = 4470000;
             vm.HP = 33041;
             vm.MP = 17650;
-            vm.LinkedIn = "";
+            vm.LinkedIn = "https://linkedin.com/in/michaelejennings42";
             vm.Email = "MichaelEJennings@yahoo.com";
             vm.Title = "LEVEL 73 Programmer";
             vm.GitHub = "https://github.com/MichaelEJennings";
