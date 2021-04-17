@@ -1,7 +1,7 @@
 ﻿@model MahekaruProfileCore.Models.ProfileModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Welcome";
     //Layout = "";
 
     var skz = 0;
@@ -33,7 +33,7 @@
                         <p>@Model.Name</p>
                         <p>@Model.ExpTotal</p>
                         <experiance thin>
-                            <experiance-bar orange full></experiance-bar>
+                            <experiance-bar blue full></experiance-bar>
                         </experiance>
                     </char-slot>
                 </charprogress>
@@ -62,9 +62,7 @@
                         </img-frame>
                     </box1>
                     <box2>
-                        <githubbutton>
-                            Get Hub
-                        </githubbutton>
+                        <a githubbutton href="@Model.GitHub" target="_blank">GitHub</a>
 
                         <charhealth>
                             <charhealthbox>
@@ -112,11 +110,11 @@
                             </li>
                             <li>
                                 <cicon class="fa fa-linkedin-square" style="font-size:1.5rem"></cicon>
-                                <ctext><a href="www.linkedin.com/in/michaelejennings42">Linked In</a></ctext>
+                                <ctext><a href="@Model.LinkedIn" target="_blank">LinkedIn</a></ctext>
                             </li>
                             <li>
                                 <cicon class="fa fa-github-square" style="font-size:1.5rem"></cicon>
-                                <ctext><a href="https://github.com/MichaelEJennings">Git hub</a></ctext>
+                                <ctext><a href="@Model.GitHub" target="_blank">GitHub</a></ctext>
                             </li>
                         </ul>
                     </cbox>
@@ -135,6 +133,5 @@
 
         </contactCard>
     </wrapper>
-    @*//<script src="~/js/profile.js"></script>*@
 </body>
 </html>
