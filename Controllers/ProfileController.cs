@@ -35,10 +35,11 @@ namespace MahekaruProfileCore.Controllers
             vm.Skills.Add(AddSkill("MEAN Stack", 6));
             vm.Skills.Add(AddSkill("OOP", 8));
             vm.Skills.Add(AddSkill("SQL", 8.4));
-            vm.Skills.Add(AddSkill("C#", 9));
+            vm.Skills.Add(AddSkill("C#", 8.6));
             vm.Skills.Add(AddSkill("Javascript", 8));
+            vm.Skills.Add(AddSkill("APIs", 8));
+            vm.Skills.Add(AddSkill("Flexbox", 7));
             vm.Skills.Add(AddSkill("CSS", 7));
-            vm.Skills.Add(AddSkill("VB", 7.5));
             vm.Skills.Add(AddSkill("Automation", 8));
             vm.Skills.Add(AddSkill("Application Development", 10));
             vm.Skills.Add(AddSkill("Visual Studio", 10));

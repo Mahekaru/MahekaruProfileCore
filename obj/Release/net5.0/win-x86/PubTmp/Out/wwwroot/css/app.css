@@ -1,0 +1,50 @@
+﻿body {
+}
+
+wrapper {
+    -webkit-box-shadow: 6px 5px 15px 2px rgba(0,0,0,0.79);
+    box-shadow: 6px 5px 15px 2px rgba(0,0,0,0.79);
+}
+
+apps{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+}
+
+app-title {
+    font-size: 2.5rem;
+    line-height:1.2;
+    font-weight:500;
+}
+apps app{
+    display:flex;
+    flex-flow:column nowrap;
+    width:25em;
+}
+
+app app-title{
+    align-self:center;
+}
+
+app app-buttons{
+    display:flex;
+    flex-flow:column nowrap;
+    text-align:center;
+}
+
+app-buttons a {
+    flex: 1;
+    background-color: #007bff;
+    color:#ffffff;
+    margin-bottom:.1em;
+}
+
+app-description{
+    height:100%;
+}
+
+app-img img{
+    width:100%;
+}
+

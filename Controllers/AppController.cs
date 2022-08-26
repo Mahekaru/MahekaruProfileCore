@@ -26,22 +26,30 @@ namespace MahekaruProfileCore.Controllers
             CreateApp("Binary Converter",
             "Originally a desktop application. I liked it a lot, so I converted it into a web app.",
             "/img/Apps/BC.png",
-            "",
+            "https://github.com/Mahekaru/Binary-Converter-Web",
             ""));
 
             apps.Apps.Add(
             CreateApp("Binary Converter API",
             "API to act in place of the Binary Converter is used by Binary Converter 2.0",
             "/img/Apps/BCAPI.png",
-            "",
+            "https://github.com/Mahekaru/BinaryConverterAPI",
             ""));
 
             apps.Apps.Add(
-            CreateApp("Flappy Bird Clone",
-            "Cloned to the best of my ability... Flappy Bird",
-            "/img/Apps/FBClone.jpg",
+            CreateApp("Our Time Together",
+            "IOS App that shows your total time in a relationship, notifies you on your anniversary, and so much more!",
+            "/img/Apps/OTTIconFB.png",
+            "",
+            "https://apps.apple.com/us/app/our-time-together/id1633279048"));
+            
+            apps.Apps.Add(
+            CreateApp("Dig It To The Ground!",
+            "A mining game created for the play.date",
+            "/img/Apps/PDDemo1.gif",
             "",
             ""));
+  
 
             return apps;
         }
