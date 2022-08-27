@@ -8,7 +8,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAq5HKZpMD9UiqwJwMwMZF7AAAAAACAAAAAAAQZgAAAAEAACAAAAB6GnapEjolhYoKLmaWuTQgug0Ug+F4/5v1O5hmLwpWBgAAAAAOgAAAAAIAACAAAACcgVyeUpVRJuIvqeGnzYm86xL2TrJVK15x0mJGZe3z9zAAAAAP8wD4Z41Phvvp2nR1jbZPEpB5E1YhLXOoHIeWC2rjCsZUGKxz1A2xhOdfs8dsnN9AAAAAlY3nmE1He1MhT0z9VH9bbFHLjZPv3ZdZl0Dzk2/TylgTjmg0ae2cX2jkCCg4BRSmWsAeL2N27KI9w7y37vDFcQ==</EncryptedPassword>
     <_PublishTargetUrl>ftps://172.107.168.67/wwwroot/</_PublishTargetUrl>
-    <History>True|2022-07-30T06:37:08.5059569Z;True|2022-07-25T20:08:44.5816041-04:00;True|2022-07-25T16:00:34.8177887-04:00;True|2022-07-25T15:55:18.8204307-04:00;True|2022-07-25T15:32:11.2658032-04:00;False|2022-07-25T15:17:26.1889735-04:00;False|2022-07-25T15:04:01.9594493-04:00;True|2022-07-25T14:49:36.1746357-04:00;True|2022-07-25T14:44:07.4338040-04:00;False|2022-07-25T09:39:32.2512505-04:00;False|2022-07-25T09:38:02.3472736-04:00;False|2022-07-25T09:33:16.4114815-04:00;False|2022-07-25T09:30:44.6772582-04:00;False|2022-07-25T09:27:59.8856333-04:00;False|2022-07-25T09:17:09.5749488-04:00;True|2022-07-24T19:01:30.5282970-04:00;True|2022-07-24T18:09:29.4125019-04:00;True|2022-07-24T18:03:40.7316724-04:00;True|2022-07-23T14:20:11.3769675-04:00;True|2022-07-23T13:25:31.4583348-04:00;False|2022-07-23T13:20:36.3296635-04:00;True|2022-07-23T13:17:20.1436935-04:00;True|2022-07-23T13:03:09.3035660-04:00;True|2022-07-23T12:55:58.1409634-04:00;False|2022-07-23T12:49:41.1913459-04:00;</History>
+    <History>True|2022-08-27T02:38:55.2252370Z;True|2022-07-30T02:37:08.5059569-04:00;True|2022-07-25T20:08:44.5816041-04:00;True|2022-07-25T16:00:34.8177887-04:00;True|2022-07-25T15:55:18.8204307-04:00;True|2022-07-25T15:32:11.2658032-04:00;False|2022-07-25T15:17:26.1889735-04:00;False|2022-07-25T15:04:01.9594493-04:00;True|2022-07-25T14:49:36.1746357-04:00;True|2022-07-25T14:44:07.4338040-04:00;False|2022-07-25T09:39:32.2512505-04:00;False|2022-07-25T09:38:02.3472736-04:00;False|2022-07-25T09:33:16.4114815-04:00;False|2022-07-25T09:30:44.6772582-04:00;False|2022-07-25T09:27:59.8856333-04:00;False|2022-07-25T09:17:09.5749488-04:00;True|2022-07-24T19:01:30.5282970-04:00;True|2022-07-24T18:09:29.4125019-04:00;True|2022-07-24T18:03:40.7316724-04:00;True|2022-07-23T14:20:11.3769675-04:00;True|2022-07-23T13:25:31.4583348-04:00;False|2022-07-23T13:20:36.3296635-04:00;True|2022-07-23T13:17:20.1436935-04:00;True|2022-07-23T13:03:09.3035660-04:00;True|2022-07-23T12:55:58.1409634-04:00;False|2022-07-23T12:49:41.1913459-04:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="api-ms-win-core-console-l1-1-0.dll">
@@ -261,25 +261,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/12/2019 13:08:36</publishTime>
     </File>
     <File Include="MahekaruProfileCore.deps.json">
-      <publishTime>07/30/2022 02:24:49</publishTime>
+      <publishTime>08/26/2022 22:27:59</publishTime>
     </File>
     <File Include="MahekaruProfileCore.dll">
-      <publishTime>07/30/2022 02:24:49</publishTime>
+      <publishTime>08/26/2022 22:27:58</publishTime>
     </File>
     <File Include="MahekaruProfileCore.exe">
-      <publishTime>07/30/2022 02:24:49</publishTime>
+      <publishTime>08/26/2022 22:27:58</publishTime>
     </File>
     <File Include="MahekaruProfileCore.pdb">
-      <publishTime>07/30/2022 02:24:49</publishTime>
+      <publishTime>08/26/2022 22:27:58</publishTime>
     </File>
     <File Include="MahekaruProfileCore.runtimeconfig.json">
-      <publishTime>07/25/2022 19:56:56</publishTime>
+      <publishTime>08/26/2022 22:27:59</publishTime>
     </File>
     <File Include="MahekaruProfileCore.Views.dll">
-      <publishTime>07/30/2022 02:24:49</publishTime>
+      <publishTime>08/26/2022 22:27:59</publishTime>
     </File>
     <File Include="MahekaruProfileCore.Views.pdb">
-      <publishTime>07/30/2022 02:24:49</publishTime>
+      <publishTime>08/26/2022 22:27:59</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Antiforgery.dll">
       <publishTime>04/15/2022 18:24:06</publishTime>
@@ -1374,16 +1374,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/11/2021 15:09:56</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>07/30/2022 02:24:50</publishTime>
+      <publishTime>08/26/2022 22:28:00</publishTime>
     </File>
     <File Include="WindowsBase.dll">
       <publishTime>04/13/2022 21:42:32</publishTime>
     </File>
     <File Include="wwwroot/css/app.css">
-      <publishTime>07/13/2022 15:06:01</publishTime>
+      <publishTime>08/26/2022 22:26:14</publishTime>
     </File>
     <File Include="wwwroot/css/profile.css">
-      <publishTime>07/13/2022 15:06:01</publishTime>
+      <publishTime>08/26/2022 20:57:13</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
       <publishTime>07/13/2022 15:06:01</publishTime>

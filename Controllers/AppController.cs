@@ -18,6 +18,7 @@ namespace MahekaruProfileCore.Controllers
             return View(apps);
         }
 
+        
         private AppModel SetupApps()
         {
             AppModel apps = new AppModel();
@@ -36,12 +37,7 @@ namespace MahekaruProfileCore.Controllers
             "https://github.com/Mahekaru/BinaryConverterAPI",
             ""));
 
-            apps.Apps.Add(
-            CreateApp("Our Time Together",
-            "IOS App that shows your total time in a relationship, notifies you on your anniversary, and so much more!",
-            "/img/Apps/OTTIconFB.png",
-            "",
-            "https://apps.apple.com/us/app/our-time-together/id1633279048"));
+
             
             apps.Apps.Add(
             CreateApp("Dig It To The Ground!",
@@ -49,7 +45,12 @@ namespace MahekaruProfileCore.Controllers
             "/img/Apps/PDDemo1.gif",
             "",
             ""));
-  
+
+            apps.AppHeader = CreateApp("Our Time Together",
+            "IOS App that shows your total time in a relationship, notifies you on your anniversary, and so much more!",
+            "/img/Apps/OTTIconFB.png",
+            "",
+            "https://apps.apple.com/us/app/our-time-together/id1633279048");
 
             return apps;
         }

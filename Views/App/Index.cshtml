@@ -7,7 +7,35 @@
         <link rel="stylesheet" href="~/css/app.css">
     </head>
 <wrapper>
-    <logo></logo>
+    <app-promo-header>
+        
+        <app-promo-app>
+            <app>
+                <app-title>@Model.AppHeader.Name</app-title>
+                <app-img>
+                    <img src="@Model.AppHeader.ImageName" />
+                </app-img>
+                <app-description>
+                    @Model.AppHeader.Description
+                </app-description>
+                <app-buttons>
+                    @if (Model.AppHeader.GithubLink != "") {<a href="@Model.AppHeader.GithubLink">Github</a>}
+                    @if (Model.AppHeader.AppLink != "") {<a href="@Model.AppHeader.AppLink">Open App</a>}
+                    
+                </app-buttons>
+            </app>
+ 
+        </app-promo-app>
+        <app-promo-image>
+            <app-image>
+                <img-frame>
+                    <img src="~/img/profile/ProfileImage.png" />
+                </img-frame>
+            </app-image>
+        </app-promo-image>
+
+    </app-promo-header>
+    <hr />
     <apps>
         @foreach (App i in Model.Apps)
         {
