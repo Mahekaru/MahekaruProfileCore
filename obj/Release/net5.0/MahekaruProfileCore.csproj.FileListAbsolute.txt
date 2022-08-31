@@ -144,3 +144,5 @@ C:\Users\mahek\Documents\Source\MahekaruProfileCore\obj\Release\net5.0\refint\Ma
 C:\Users\mahek\Documents\Source\MahekaruProfileCore\obj\Release\net5.0\MahekaruProfileCore.pdb
 C:\Users\mahek\Documents\Source\MahekaruProfileCore\obj\Release\net5.0\MahekaruProfileCore.genruntimeconfig.cache
 C:\Users\mahek\Documents\Source\MahekaruProfileCore\obj\Release\net5.0\ref\MahekaruProfileCore.dll
+C:\Users\mahek\Documents\Source\MahekaruProfileCore\bin\Release\net5.0\System.Net.Http.Formatting.dll
+C:\Users\mahek\Documents\Source\MahekaruProfileCore\bin\Release\net5.0\Newtonsoft.Json.Bson.dll

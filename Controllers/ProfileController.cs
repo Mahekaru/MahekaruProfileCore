@@ -12,14 +12,12 @@ namespace MahekaruProfileCore.Controllers
 {
     public class ProfileController : Controller
     {
-        private string _Baseurl = "https://localhost:44373/";
+        private string _Baseurl = "https://apigrouop.azurewebsites.net/";
 
         public IActionResult Index()
         {
             ProfileModel vm = new ProfileModel();
-            //vm = FillViewModel(vm);
             vm = FillViewModelFromAPI(vm);
-            //vm = FillViewModel(vm);
 
             return View(vm);
         }

@@ -21,7 +21,6 @@
           "net5.0"
         ],
         "sources": {
-          "ftps://michaelejennings.com": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -490,3 +490,5 @@ C:\Users\mahek\Documents\Source\MahekaruProfileCore\bin\Release\net5.0\win-x86\m
 C:\Users\mahek\Documents\Source\MahekaruProfileCore\bin\Release\net5.0\win-x86\mscorrc.dll
 C:\Users\mahek\Documents\Source\MahekaruProfileCore\bin\Release\net5.0\win-x86\ucrtbase.dll
 C:\Users\mahek\Documents\Source\MahekaruProfileCore\bin\Release\net5.0\win-x86\aspnetcorev2_inprocess.dll
+C:\Users\mahek\Documents\Source\MahekaruProfileCore\bin\Release\net5.0\win-x86\System.Net.Http.Formatting.dll
+C:\Users\mahek\Documents\Source\MahekaruProfileCore\bin\Release\net5.0\win-x86\Newtonsoft.Json.Bson.dll
