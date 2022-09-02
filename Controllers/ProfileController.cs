@@ -7,12 +7,20 @@ using System.Net.Http.Headers;
 using MahekaruProfileCore.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Microsoft.Extensions.Configuration;
 
 namespace MahekaruProfileCore.Controllers
 {
     public class ProfileController : Controller
     {
-        private string _Baseurl = "https://apigrouop.azurewebsites.net/";
+        private string _Baseurl = "";
+        private readonly IConfiguration _configuration;
+
+        public ProfileController(IConfiguration config)
+        {
+            _configuration = config;
+            _Baseurl = _configuration.GetSection("APIURL").Value;
+        }
 
         public IActionResult Index()
         {

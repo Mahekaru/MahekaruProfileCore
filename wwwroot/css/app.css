@@ -75,6 +75,7 @@ apps app, app-promo-header app-promo-app{
 
 app app-title{
     align-self:center;
+    margin-bottom:.5rem;
 }
 
 app app-buttons{
@@ -99,6 +100,7 @@ app-description{
 
 app-img img{
     width:100%;
+    border-radius: 1rem;
 }
 
 img-frame img {

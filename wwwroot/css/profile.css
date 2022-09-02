@@ -68,8 +68,8 @@ profileinfo {
     /*box-shadow: 6px 5px 15px 2px rgba(0,0,0,0.79);*/
     border-radius: 1.5em;
     background: #e0e0e0;
-    box-shadow: 7px 7px 14px #a1a1a1, -7px -7px 14px #ffffff;
-    -webkit-box-shadow: 7px 7px 14px #a1a1a1, -7px -7px 14px #ffffff;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+    -webkit-box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
 }
 
 contactcard {
@@ -80,8 +80,8 @@ contactcard {
     justify-content: space-between;
     border-radius: 1.5em;
     background: #e0e0e0;
-    box-shadow: 7px 7px 14px #a1a1a1, -7px -7px 14px #ffffff;
-    -webkit-box-shadow: 7px 7px 14px #a1a1a1, -7px -7px 14px #ffffff;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+    -webkit-box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
     margin-left: 1.5em;
 }
 
@@ -285,12 +285,14 @@ contactCard cardbox {
 }
 
 cardimgbox {
+    margin-bottom:.5rem;
     /*width: 15em;*/
     /*align-self:center;*/
 }
 
 cardimgbox img {
     width: 100%;
+    border-radius: 1rem;
     /*height: 100%;*/
 }
 
@@ -357,6 +359,7 @@ a {
 }
 cicon {
     padding: 0 5px 0 5px;
+    font-size: 1.5rem
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
