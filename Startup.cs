@@ -8,15 +8,18 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
-using MahekaruProfileCore.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Net.Http;
+using MahekaruProfileCore.Data;
+
 
 namespace MahekaruProfileCore
 {
     public class Startup
     {
+        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -27,13 +30,27 @@ namespace MahekaruProfileCore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.WithOrigins("https://localhost:44377")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
+            });
+
+            services.AddControllers();
+            //services.AddSwaggerGen(c =>
+            //{
+            //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "MahekaruProfileCoreAPI", Version = "v1" });
+            //});
+
+            services.AddDbContext<MahekaruProfileCoreAPIContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("MahekaruProfileCoreAPIContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,16 +71,20 @@ namespace MahekaruProfileCore
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseCors();
             app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
+                //endpoints.MapControllers();
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Profile}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
+
+                //endpoints.MapControllers();
             });
         }
     }

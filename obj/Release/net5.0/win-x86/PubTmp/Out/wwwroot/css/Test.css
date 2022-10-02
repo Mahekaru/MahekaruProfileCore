@@ -1,0 +1,48 @@
+﻿cc{
+    display:flex;
+    flex-flow:column nowrap;
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+}
+
+dbox {
+    background-color: #ffef9c;
+}
+
+ibox {
+    display:flex;
+    flex-flow:row nowrap;
+    background-color: #132232;
+    color: #ffef9c;
+}
+cbox{
+    display:flex;
+    flex:1 auto;
+}
+
+nbox{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:center;
+    align-items:center;
+    flex:1 auto;
+}
+
+nbtitle{
+    font-size:1.3rem;
+}
+
+nbname{
+    font-size:1rem;
+
+}
+
+ul li {
+    display:flex;
+    flex-flow: row nowrap;
+    align-items:center;
+}
+
+cicon{
+    padding:0 5px 0 5px;
+}

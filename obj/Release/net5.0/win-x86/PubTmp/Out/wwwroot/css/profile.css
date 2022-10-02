@@ -1,0 +1,396 @@
+﻿html,
+body,
+wrapper,
+profileinfo{
+    height:100%;
+    background: #e0e0e0;
+}
+
+wrapper {
+    /*margin-bottom: 4%;*/
+    
+}
+
+body{
+    margin:0;
+    /*align-items:center;*/
+}
+
+
+body{
+    display:flex;
+    flex-flow:column nowrap;
+    
+    /*justify-content:center;*/
+}
+
+wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    height: 85%;
+    align-self: center;
+}
+
+/*wrapper > *{
+    flex: 1 100%;
+}*/
+
+wrapper profileinfo,
+wrapper profileinfo charinfo {
+    border: 1px solid #dee2e6;
+}
+
+wrapper{
+    flex:1 auto;
+    padding:1.5rem 1.5rem;
+}
+
+charinfo {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+charinfo p{
+    margin:0;
+}
+
+charprogress {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+profileinfo {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex: 4;
+    min-width: 40%;
+    /*box-shadow: 6px 5px 15px 2px rgba(0,0,0,0.79);*/
+    border-radius: 1.5em;
+    background: #e0e0e0;
+    box-shadow: 7px 7px 14px #a1a1a1, -7px -7px 14px #ffffff;
+    -webkit-box-shadow: 7px 7px 14px #a1a1a1, -7px -7px 14px #ffffff;
+}
+
+contactcard {
+    flex: 1;
+    padding: 0 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    border-radius: 1.5em;
+    background: #e0e0e0;
+    box-shadow: 7px 7px 14px #a1a1a1, -7px -7px 14px #ffffff;
+    -webkit-box-shadow: 7px 7px 14px #a1a1a1, -7px -7px 14px #ffffff;
+    margin-left: 1.5em;
+}
+
+level{
+    flex: 1 auto;
+    align-self:center;
+    padding: 0 .5em 0 .5em;
+
+}
+
+level p {
+    text-align:center;
+}
+
+charprogress {
+    flex: 4 auto;
+    border-left: 1px solid #dee2e6;
+    padding-left:1em;
+}
+
+charprogress > :nth-child(1) {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+}
+
+charprogress char-slot p{
+    margin:0;
+}
+
+charprogress > :nth-child(2) {
+    margin: 0 2em 0 2em;
+    flex:1;
+}
+
+charstats{
+    display: flex;
+    flex-flow: row nowrap;
+    overflow:auto;
+    height:100%;
+}
+
+charskills{
+    width:15rem;
+    display:flex;
+}
+
+box{
+    display:flex
+}
+
+charskills ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+charskills ul li {
+    display: flex;
+    overflow-x: hidden;
+    flex-flow: column nowrap;
+    width: 100%;
+    padding: .75rem 1.25rem;
+    border: 1px solid #dee2e6;
+}
+
+li p{
+    margin:0;
+    padding:0;
+}
+charimg{
+    /*max-width:32em;*/
+    max-height:100%;
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:flex-end;
+    flex:1 auto;
+}
+
+charimg img-frame{
+    max-width: 100%;
+    max-height: 95%;
+    display:flex;
+    align-items:center;
+}
+
+img-frame img{
+    width:100%;
+    height:100%;
+    max-width:35em;
+    /*max-height:25em;*/
+}
+
+charhealth{
+    display:flex;
+    flex-flow:row nowrap;
+}
+
+a[githubbutton] {
+    flex:1 auto;
+    text-align: center;
+    background-color:#007bff;
+    border-color:#007bff;
+    color:#fff;
+}
+
+charhealth{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+charhealth charhealthbox,
+charhealth charmpbox {
+    display: flex;
+    flex-flow: row nowrap;
+    flex:1 auto;
+    justify-content:center;
+}
+
+charhealth charhealthbox hptext,
+charhealth charmpbox mptext{
+    align-self: center;
+}
+
+charhealth charhealthbox hpbox,
+charhealth charmpbox mpbox {
+    display: flex;
+    flex-flow: column nowrap;
+    width:100%;
+}
+
+hpbox hp,
+mpbox mp{
+    align-self:center;
+}
+
+experiance {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    width:100%;
+}
+
+experiance experiance-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #EAEAEA;
+    text-align: center;
+    white-space: nowrap;
+    transition: width .6s ease;
+}
+
+experiance[thin] {
+    max-height:2px;
+}
+
+experiance-bar[full]{
+    width:100%;
+}
+
+experiance-bar[green] {
+    background-color: #28a745;
+}
+
+experiance-bar[blue] {
+    background-color: #007bff;
+}
+
+experiance-bar[orange] {
+    background-color: #FF6600;
+}
+
+box1 {
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    /*align-items:center;*/
+}
+
+box2{
+    display:flex;
+    flex-flow:column;
+}
+
+contactCard cardbox {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px solid #dee2e6;
+}
+
+cardimgbox {
+    /*width: 15em;*/
+    /*align-self:center;*/
+}
+
+cardimgbox img {
+    width: 100%;
+    /*height: 100%;*/
+}
+
+cc {
+    display: flex;
+    flex-flow: column nowrap;
+    /*border: 1px solid black;*/
+    border-radius: 5px 5px 0 0;
+}
+
+dbox {
+    background-color: #ffef9c;
+    height: 1em;
+    border-radius: 5px 5px 0 0;
+}
+
+ibox {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #132232;
+    color: #ffef9c;
+    /*padding:1em;*/
+}
+
+cbox {
+    display: flex;
+    flex: 1 auto;
+    justify-content:center;
+    width:11em;
+    /*padding:1em;*/
+}
+
+nbox {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1 auto;
+    /*padding:1em;*/
+    min-width:15em;
+}
+
+nbtitle {
+    font-size: 1rem;
+}
+
+nbname {
+    font-size: 1.8rem;
+}
+
+cbox ul{
+    /*padding-left:5px;*/
+    padding: 0 5px 0 5px;
+    margin:.3rem;
+}
+ul li {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+a {
+    color: #ffef9c;
+}
+cicon {
+    padding: 0 5px 0 5px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    wrapper{
+        flex:1;
+        margin:0 1em 0 1em;
+    }
+
+    contactcard{
+        padding:0px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        margin:0;
+    }
+
+
+}
+

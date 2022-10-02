@@ -2,11 +2,13 @@
 body,
 wrapper,
 profileinfo{
-    height:100%
+    height:100%;
+    background: #e0e0e0;
 }
 
-wrapper{
-    margin-bottom:4%;
+wrapper {
+    /*margin-bottom: 4%;*/
+    
 }
 
 body{
@@ -40,6 +42,7 @@ wrapper profileinfo charinfo {
 
 wrapper{
     flex:1 auto;
+    padding:1.5rem 1.5rem;
 }
 
 charinfo {
@@ -62,16 +65,24 @@ profileinfo {
     overflow: hidden;
     flex: 4;
     min-width: 40%;
-    -webkit-box-shadow: 6px 5px 15px 2px rgba(0,0,0,0.79);
-    box-shadow: 6px 5px 15px 2px rgba(0,0,0,0.79);
+    /*box-shadow: 6px 5px 15px 2px rgba(0,0,0,0.79);*/
+    border-radius: 1.5em;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+    -webkit-box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
 }
 
-contactcard{
-    flex:1;
-    padding-left:1em;
-    display:flex;
-    flex-flow:column nowrap;
-    justify-content:space-between;
+contactcard {
+    flex: 1;
+    padding: 0 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    border-radius: 1.5em;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+    -webkit-box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+    margin-left: 1.5em;
 }
 
 level{
@@ -274,12 +285,14 @@ contactCard cardbox {
 }
 
 cardimgbox {
+    margin-bottom:.5rem;
     /*width: 15em;*/
     /*align-self:center;*/
 }
 
 cardimgbox img {
     width: 100%;
+    border-radius: 1rem;
     /*height: 100%;*/
 }
 
@@ -346,6 +359,7 @@ a {
 }
 cicon {
     padding: 0 5px 0 5px;
+    font-size: 1.5rem
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

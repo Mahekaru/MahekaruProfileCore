@@ -58,7 +58,7 @@
                 <charimg>
                     <box1>
                         <img-frame>
-                            <img src="~/img/profile/ProfileImage.png" />
+                            <img src="@Model.ProfileImage" />
                         </img-frame>
                     </box1>
                     <box2>
@@ -101,19 +101,19 @@
                     <cbox>
                         <ul>
                             <li>
-                                <cicon phone class="fa fa-phone" style="font-size:1.5rem"></cicon>
+                                <cicon phone class="fa fa-phone"></cicon>
                                 <ctext>(317) 626-8984</ctext>
                             </li>
                             <li>
-                                <cicon class="fa fa-envelope-square" style="font-size:1.5rem"></cicon>
-                                <ctext><a href="mailto:MichaelEJennings@yahoo.com">Email Me</a></ctext>
+                                <cicon class="fa fa-envelope-square"></cicon>
+                                <ctext><a href="mailto:@Model.Email">Email Me</a></ctext>
                             </li>
                             <li>
-                                <cicon class="fa fa-linkedin-square" style="font-size:1.5rem"></cicon>
+                                <cicon class="fa fa-linkedin-square"></cicon>
                                 <ctext><a href="@Model.LinkedIn" target="_blank">LinkedIn</a></ctext>
                             </li>
                             <li>
-                                <cicon class="fa fa-github-square" style="font-size:1.5rem"></cicon>
+                                <cicon class="fa fa-github-square"></cicon>
                                 <ctext><a href="@Model.GitHub" target="_blank">GitHub</a></ctext>
                             </li>
                         </ul>
