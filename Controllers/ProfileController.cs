@@ -19,13 +19,13 @@ namespace MahekaruProfileCore.Controllers
         public ProfileController(IConfiguration config)
         {
             _configuration = config;
-            _Baseurl = _configuration.GetSection("APIURL").Value;
+            _Baseurl = "";
         }
 
         public IActionResult Index()
         {
             ProfileModel vm = new ProfileModel();
-            vm = FillViewModelFromAPI(vm);
+            //vm = FillViewModelFromAPI(vm);
 
             return View(vm);
         }
