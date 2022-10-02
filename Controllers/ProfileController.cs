@@ -19,13 +19,13 @@ namespace MahekaruProfileCore.Controllers
         public ProfileController(IConfiguration config)
         {
             _configuration = config;
-            _Baseurl = "";
+            _Baseurl = "https://localhost:44368/";
         }
 
         public IActionResult Index()
         {
             ProfileModel vm = new ProfileModel();
-            //vm = FillViewModelFromAPI(vm);
+            vm = FillViewModelFromAPI(vm);
 
             return View(vm);
         }
@@ -38,7 +38,7 @@ namespace MahekaruProfileCore.Controllers
                 client.DefaultRequestHeaders.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-                HttpResponseMessage profileResponse = client.GetAsync("/api/Profile/1").Result;
+                HttpResponseMessage profileResponse = client.GetAsync("/api/APIProfile/1").Result;
 
                 if (profileResponse.IsSuccessStatusCode)
                 {
